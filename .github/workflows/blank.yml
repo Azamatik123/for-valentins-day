@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менің валентинкам боласынба?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7; /* Светло-серый */
+            position: relative;
+        }
+
+        header {
+            background-color: #ff66b2; /* Ярко-розовый */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .image-container {
+            margin: 10px;
+        }
+
+        .kitten {
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+            animation: bounce 1s infinite alternate; /* Анимация */
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+
+        #moveButton {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Менің валентинкам боласынба?</h1>
+    </header>
+    <main>
+        <section class="content">
+            <div class="image-container">
+                <img src="https://media.stickerswiki.app/kkkkiiitttyyy_by_fstikbot/418727.160.gif" alt="Котенок" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://media.stickerswiki.app/kkkkiiitttyyy_by_fstikbot/418710.160.gif" alt="Котенок" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/plain/stiksfei_by_fStikBot/512/ca30783f-0e9f-459f-b9ea-ea5150d307b2file_2802100.webp" alt="Котенок" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/plain/stiksfei_by_fStikBot/512/286e6cc1-29d3-449d-86b7-0d27f7f54c29file_2802105.webp" alt="Котенок" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://i.pinimg.com/564x/d8/86/fd/d886fd6a4a362e73ff0473a29996091a.jpg" alt="Котенок" class="kitten">
+            </div>
+        </section>
+        <button onclick="location.href='second_page.html';">Иә</button>
+        <button id="moveButton" onclick="moveButton()">Жөқ</button>
+    </main>
+    <footer>
+        <p>© 2024 Менің валентинкам боласынба?</p>
+    </footer>
+
+    <script>
+        function moveButton() {
+            var button = document.getElementById('moveButton');
+            var newX = Math.floor(Math.random() * (window.innerWidth - button.offsetWidth));
+            var newY = Math.floor(Math.random() * (window.innerHeight - button.offsetHeight));
+            button.style.left = newX + 'px';
+            button.style.top = newY + 'px';
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УРАААА БІЛГЕМ АЗАМАТЫҢНЫҢ ВАЛЕНТИНКАСЫ БОЛАТЫНЫҢДЫЫ УРАААААА</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7; /* Светло-серый */
+            position: relative;
+        }
+
+        header {
+            background-color: #ff66b2; /* Ярко-розовый */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .image-container {
+            margin: 10px;
+            flex: 1 1 45%; /* Распределение по ширине */
+        }
+
+        .kitten {
+            width: 100%;
+            border-radius: 50%;
+            margin-top: 20px;
+            animation: bounce 1s infinite alternate; /* Анимация */
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>УРАААА БІЛГЕМ АЗАМАТЫҢНЫҢ ВАЛЕНТИНКАСЫ БОЛАТЫНЫНДЫЫ УРАААААА</h1>
+    </header>
+    <main>
+        <section class="content">
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/animated/HANGSEED9/thumbs/bf6eb5bf-6425-4400-aa09-50be9b04e4acfile_2752891.jpg" alt="Сердечко" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/animated/HANGSEED9/thumbs/ddbe3056-e765-41e9-8945-c45850c1d6a6file_2752869.jpg" alt="Сердечко" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/animated/HANGSEED9/thumbs/6bd1a341-8de1-45d8-8b0e-4b0f1064782dfile_2752872.jpg" alt="Цветок" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://media.stickerswiki.app/bubududubears/1482468.160.gif" alt="Цветок" class="kitten">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="content">
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/plain/stiksfei_by_fStikBot/512/543d95e2-4339-4ec0-bedb-296c14d794f2file_2802094.webp" alt="Сердечко" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://sticker-collection.com/stickers/plain/stiksfei_by_fStikBot/512/4fe9e23b-e2e5-44e8-9af4-4543c4c23330file_2802097.webp" alt="Сердечко" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://tlgrm.eu/_/stickers/da4/6a0/da46a087-7d20-42a4-8a6f-0f9cc93f3a9a/192/2.webp" alt="Цветок" class="kitten">
+            </div>
+            <div class="image-container">
+                <img src="https://tlgrm.eu/_/stickers/da4/6a0/da46a087-7d20-42a4-8a6f-0f9cc93f3a9a/192/6.webp" alt="Цветок" class="kitten">
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
